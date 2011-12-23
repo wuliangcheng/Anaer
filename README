@@ -1,1 +1,16 @@
 This is Anaer!
+
+version：0.1
+
+author：AlexWu
+
+createDate：2011-12-23
+
+language：Java
+
+中文全称：网络分析师
+
+英文全称：Web Analysiser
+
+作用：通过httpClient和jericho访问远程页面元素，解析获取元素及其值
+
