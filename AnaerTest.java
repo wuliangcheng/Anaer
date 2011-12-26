@@ -19,10 +19,10 @@ public class AnaerTest {
 		anaer.setUrl(url);
 		anaer.setCharSet("GBK");
 		
-		//找到主标签的对应所有子标签的两个字段
+		//实现方式1：找到主标签的对应所有子标签的两个字段
 		List<Map<String, String>> result = anaer.extract("form", "input", "name", "value");
 		
-		//找到主标签的对应所有子标签的两个字段并将结果打印在控制台
+		//实现方式2：找到主标签的对应所有子标签的两个字段并将结果打印在控制台
 		anaer.extractAndShow("form", "input", "name", "value");
 	}
 }
